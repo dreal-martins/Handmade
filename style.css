@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: #ccc2ca;
+}
+
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/land.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.hero h1 {
+  font-size: 5.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sectionTwo {
+  width: 85%;
+  margin: 25px;
+}
+.sectionTwo h2 {
+  font-size: 2em;
+  width: 70%;
+}
+.sectionTwo p {
+  margin-top: 10px;
+}
+.line {
+  border-bottom: 2px solid #000;
+  margin: 20px;
+}
+.sectionthree {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+.sectionthree img {
+  width: 30vw;
+  height: 30vh;
+}
+.sectionthreedetail {
+  width: 30%;
+}
+.sectionthreedetail h2 {
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.sectionthreedetail p {
+  margin-top: 10px;
+}
+.sectionthreedetail button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  border: hidden;
+  border-radius: 10px;
+}
